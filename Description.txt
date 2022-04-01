@@ -401,3 +401,58 @@ Date:   Fri Apr 1 14:04:45 2022 +0100
     Adding initial files
 
 USER@BidexTech MINGW64 ~/project (master)
+
+USER@BidexTech MINGW64 ~/project (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Description.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Project1/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+USER@BidexTech MINGW64 ~/project (master)
+$ git add "Description.txt"
+
+USER@BidexTech MINGW64 ~/project (master)
+$ git commit -m "updating description"
+[master 4f5efce] updating description
+ 1 file changed, 403 insertions(+)
+
+USER@BidexTech MINGW64 ~/project (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Project1/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+USER@BidexTech MINGW64 ~/project (master)
+$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 2.95 KiB | 1008.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/BidexTech/Project1.git
+   eaa87ac..4f5efce  master -> master
+branch 'master' set up to track 'origin/master'.
+
+USER@BidexTech MINGW64 ~/project (master)
+$ git checkout master
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+
+USER@BidexTech MINGW64 ~/project (master)
