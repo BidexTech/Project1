@@ -456,3 +456,20 @@ Already on 'master'
 Your branch is up to date with 'origin/master'.
 
 USER@BidexTech MINGW64 ~/project (master)
+$ git pull origin master
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 6 (delta 2), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (6/6), 1.55 KiB | 2.00 KiB/s, done.
+From https://github.com/BidexTech/Project1
+ * branch            master     -> FETCH_HEAD
+   4f5efce..96b54c7  master     -> origin/master
+Updating 4f5efce..96b54c7
+Fast-forward
+ Description.txt | 55 +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ python.py       |  3 ++-
+ 2 files changed, 57 insertions(+), 1 deletion(-)
+
+USER@BidexTech MINGW64 ~/project (master)
+$
